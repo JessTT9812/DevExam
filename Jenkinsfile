@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/NikithGanga/Test-Repo.git'
+                git branch: 'main', url: 'https://github.com/JessTT9812/DevExam.git'
             }
         }
         stage('Build') {
@@ -30,4 +30,3 @@ pipeline {
         }
     }
 }
-
